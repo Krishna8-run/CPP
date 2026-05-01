@@ -10,7 +10,7 @@ int main(){
         }
     }
     for(int k=0;k<(n-1)*2-2*i;k++){
-        cout<<".";
+        cout<<" ";
     }
     for(int j=0;j<=n-1;j++){
         if(i+j>=n-1){
@@ -28,7 +28,7 @@ int main(){
         }
     }
     for(int k=0;k<2*i-2;k++){
-        cout<<".";
+        cout<<" ";
     }
     for(int j=1;j<=n;j++){
         if(j>=i){
