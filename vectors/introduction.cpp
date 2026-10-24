@@ -14,7 +14,7 @@ void practice(){
 
 void practice1(){
     cout<<"practice1"<<endl;
-    vector<int>vec3(5,-2);
+    vector<int>vec3(5,-2 );
     cout<<vec3.size()<<endl;
     for(int i=0;i<vec3.size();i++){
         cout<<vec3[i]<<" ";
